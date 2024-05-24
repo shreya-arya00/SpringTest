@@ -11,27 +11,25 @@ The project includes a simple Spring Boot application with a RESTful endpoint `/
 
 The project structure is as follows:
 
-dirty-context-demo/
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/
-│ │ │ └── example/
-│ │ │ └── dirtycontextdemo/
-│ │ │ ├── DirtyContextDemoApplication.java
-│ │ │ └── GreetingController.java
-│ │ └── resources/
-│ │ └── application.properties
-│ ├── test/
-│ │ ├── java/
-│ │ │ └── com/
-│ │ │ └── example/
-│ │ │ └── dirtycontextdemo/
-│ │ │ ├── GreetingControllerIntegrationTest.java
-│ │ │ └── GreetingControllerDirtyContextTest.java
-│ │ └── resources/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── dirtycontextdemo/
+│   │   │               ├── DirtyContextDemoApplication.java
+│   │   │               └── GreetingController.java
+│   │   └── resources/
+│   │       └── application.properties
+│   ├── test/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── dirtycontextdemo/
+│   │   │               ├── GreetingControllerIntegrationTest.java
+│   │   │               └── GreetingControllerDirtyContextTest.java
+│   │   └── resources/
 └── pom.xml
-
 
 - **`src/main/`**: Contains the main application code.
 - **`src/test/`**: Contains the test code, including integration tests.
